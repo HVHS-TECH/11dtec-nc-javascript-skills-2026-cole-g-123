@@ -12,6 +12,7 @@ let birthyear;
 let oldage;
 oldage = age + 10;
 birthyear = year - age;
+halfmoney = money / 2
 /****************************
   Main Code
 ****************************/ 
@@ -20,7 +21,7 @@ console.log("Hi " + username + ", as of " + year + " you are " + age + " years o
 console.log("You were born in " + birthyear )
 console.log("In 10 years you will be " + oldage)
 console.log("You have $" + money)
-console.log("Uh-oh! You spent half of your money! You now have $" + )
+console.log("Uh-oh! You spent half of your money! You now have $" + halfmoney)
 
 /****************************
  Functions
