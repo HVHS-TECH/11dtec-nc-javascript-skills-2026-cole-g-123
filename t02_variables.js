@@ -12,7 +12,7 @@ let money = 378;
   Main Code
 ****************************/ 
 
-console.log("Hi " + username + ", as of " + year + " you are " + age + " years old. " + "Congrats, you have $" + money +  "! " + " Unfortunately, Ayush is a broke scammer.")
+console.log("Hi " + username + ", as of " + year + " you are " + age + " years old. " + "Congrats, you have $" + money +  "!" + " Unfortunately, Ayush is bankrupt as a result of spending too much money on cricket gear.")
 
 
 /****************************
