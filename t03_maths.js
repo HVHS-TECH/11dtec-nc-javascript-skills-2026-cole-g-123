@@ -1,3 +1,7 @@
+
+console.log( "Running t01_introduction.js" );
+
+//Variables
 let username = "Cole";
 let year = 2026;
 let age = 15;
