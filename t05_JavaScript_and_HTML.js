@@ -11,7 +11,8 @@ let oldage;
 oldage = age + 10;
 birthyear = year - age;
 halfmoney = money / 2
-
+const OUTPUT = document.getelmentByID("spaceforJavaScriptOutput")
+OUTPUT.innerHTML = "<h2Added by JavaScript"<
 console.log("You were born in " + birthyear )
 console.log("In 10 years you will be " + oldage)
 console.log("You have $" + money)
@@ -25,4 +26,3 @@ console.log("Uh-oh! You spent half of your money! You now have $" + halfmoney)
  *Functions
  *******************/
 
-const OUTPUT = document.getelmentByID("JavaScriptOutput")
