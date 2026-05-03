@@ -16,3 +16,13 @@ console.log("You were born in " + birthyear )
 console.log("In 10 years you will be " + oldage)
 console.log("You have $" + money)
 console.log("Uh-oh! You spent half of your money! You now have $" + halfmoney)
+
+
+
+
+
+/*******************
+ *Functions
+ *******************/
+
+const OUTPUT = document.getelmentByID("JavaScriptOutput")
