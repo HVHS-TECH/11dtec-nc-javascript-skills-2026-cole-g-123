@@ -17,6 +17,8 @@ console.log("In 10 years you will be " + oldage)
 console.log("You have $" + money)
 console.log("Uh-oh! You spent half of your money! You now have $" + halfmoney)
 
+const OUTPUT = document.getElementById("JavaScriptOutput");
+
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 OUTPUT.innerHTML += "<p>Hello " + username + "</p>";
 OUTPUT.innerHTML += "<p>Second Paragraph line.</p>";
