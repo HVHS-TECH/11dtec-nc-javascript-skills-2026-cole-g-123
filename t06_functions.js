@@ -15,7 +15,7 @@ const OUTPUT = document.getelmentByID("spaceforJavaScriptOutput");
 OUTPUT.innerHTML += "<h2>"Added by JavaScript" + </h2>";
 OUTPUT.innerHTML += "<p>You were born in " + birthyear </p>";
 OUTPUT.innerHTML += "<p>In 10 years you will be " + oldAge + </p>";
-OUTPUT.innerHTML += "<p>You have $" + money + </p>");
+OUTPUT.innerHTML += "<p>You have $" + money + </p>";
 OUTPUT.innerHTML += "<p>Uh-oh! You spent half of your money! You now have $" + halfmoney + </p>";
 +
 
