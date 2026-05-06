@@ -1,4 +1,4 @@
-/* Pasteconsole.log( "Running t.05_javascriptandhtml.js");
+console.log( "Running t.05_javascriptandhtml.js");
 
 //Variables
 let username = "Cole";
@@ -10,6 +10,9 @@ let oldage;
 oldAge = age + 10;
 birthyear = year - age;
 halfmoney = money / 2
+displayWelcome(Ms Alice, 16)
+displayWelcome(Mr Bob, 99)
+
 const OUTPUT = document.getelmentByID("spaceforJavaScriptOutput");
 OUTPUT.innerHTML += "<h2>"Added by JavaScript" + </h2>";
 OUTPUT.innerHTML += "<p>You were born in " + birthyear </p>";
@@ -29,9 +32,13 @@ function writeLine(){
    // Add a line to the html page
    OUTPUT.innerhtml += "<p>Less code matters</p>";
 }
-
+ 
+function displayWelcome(_name, _age){
+    OUTPUT.innerHTML += "<p>Welcome to the page "+_name+"</p>";
+    OUTPUT.innerHTML += "<p>You are "+_age+" years old</p>";
+}
 /****************************
   Main Code
 ****************************/ 
 writeLine()
- your code from task 6 here */
+ 
