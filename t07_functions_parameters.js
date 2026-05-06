@@ -8,6 +8,7 @@ let age = 15;
 let money = 378;
 let birthyear;
 let oldage;
+let userName = "Ms Alice,"
 oldage = age + 10;
 birthyear = year - age;
 halfmoney = money / 2
@@ -25,6 +26,7 @@ OUTPUT.innerHTML += "<p>Second Paragraph line.</p>";
 OUTPUT.innerHTML += "<p>Third Paragraph line.</p>";
 
 
+displayWelcome(userName, 16);
 
 
 
@@ -36,8 +38,7 @@ function writeLine(){
    OUTPUT.innerhtml += "<p>Less code matters</p>";
 }
 
-let userName = "Ms Alice"
-displayWelcome(userName);
+
 /****************************
   Main Code
 ****************************/ 
