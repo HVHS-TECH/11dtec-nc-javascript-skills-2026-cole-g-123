@@ -36,6 +36,7 @@ function writeLine(){
    OUTPUT.innerhtml += "<p>Less code matters</p>";
 }
 
+let username = "Ms Alice"
 /****************************
   Main Code
 ****************************/ 
