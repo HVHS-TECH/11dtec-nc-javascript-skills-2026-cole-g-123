@@ -26,9 +26,12 @@ OUTPUT.innerHTML += "<p>Uh-oh! You spent half of your money! You now have $" + h
 /*******************
  *Functions
  *******************/
-function writeline(){
+function writeLine(){
    // Add a line to the html page
    OUTPUT.innerhtml += "<p>Less code matters</p>";
 }
 
-
+/****************************
+  Main Code
+****************************/ 
+writeLine()
