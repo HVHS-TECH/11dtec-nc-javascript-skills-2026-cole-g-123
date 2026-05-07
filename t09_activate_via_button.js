@@ -12,6 +12,7 @@ let userName = "Ms Alice,"
 oldage = age + 10;
 birthyear = year - age;
 halfmoney = money / 2
+currentYear = "2026"
 
 
 console.log("You were born in " + birthyear )
