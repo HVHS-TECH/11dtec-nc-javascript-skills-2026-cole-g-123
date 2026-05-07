@@ -12,7 +12,7 @@ let userName = "Ms Alice,"
 oldage = age + 10;
 birthyear = year - age;
 halfmoney = money / 2
-<button onClick="start()">START</button>
+
 
 console.log("You were born in " + birthyear )
 console.log("In 10 years you will be " + oldage)
