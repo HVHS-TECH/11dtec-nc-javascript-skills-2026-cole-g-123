@@ -39,6 +39,12 @@ function writeLine(){
    OUTPUT.innerhtml += "<p>Less code matters</p>";
 }
 
+function start() {
+    spaceForJavaScriptOutput.innerHTML
+    spaceForJavaScriptOutput.innerHTML
+    answer = currentYear - userAge;
+    spaceForJavaScriptOutput.innerHTML
+}
 
 /****************************
   Main Code
