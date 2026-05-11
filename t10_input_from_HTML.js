@@ -72,3 +72,6 @@ function displayWelcome(_name, _age){
   Main Code
 ****************************/ 
 writeLine()
+
+
+const OUTPUT
