@@ -79,5 +79,5 @@ OUTPUT.innerHTML = "Hello world!<br>";
 
 <form onsubmit="return false;">
     <input type="text" id="nameField">
-    <input type="submit" onClick={getFormInput}</input>
+    <input type="submit" onClick=getFormInput</input>
 </form>
