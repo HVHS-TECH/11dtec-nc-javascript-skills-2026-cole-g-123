@@ -74,5 +74,10 @@ function displayWelcome(_name, _age){
 writeLine()
 
 
-
+const OUTPUT = document.getElementById("JavaScriptOutput");
 OUTPUT.innerHTML = "Hello world!<br>";
+
+<form>
+    <input type="text">
+    <input type="submit">
+</form>
