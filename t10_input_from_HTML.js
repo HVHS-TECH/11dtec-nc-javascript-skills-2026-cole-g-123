@@ -74,4 +74,5 @@ function displayWelcome(_name, _age){
 writeLine()
 
 
-const OUTPUT
+const OUTPUT = document.getElementById("JavaScriptOutput");
+OUTPUT.innerHTML = "Hello world!<br>";
