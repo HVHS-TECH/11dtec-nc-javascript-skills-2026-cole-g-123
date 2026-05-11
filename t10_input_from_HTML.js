@@ -77,7 +77,7 @@ writeLine()
 const OUTPUT = document.getElementById("JavaScriptOutput");
 OUTPUT.innerHTML = "Hello world!<br>";
 
-<form>
-    <input type="text">
-    <input type="submit">
+<form onsubmit="return false;">
+    <input type="text" id="nameField">
+    <input type="submit" onClick=getFormInput()></input>
 </form>
