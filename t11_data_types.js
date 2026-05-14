@@ -52,7 +52,14 @@ function start() {
 ****************************/ 
 writeLine()
 
+var num1 = "50";
+num1+num1;
 
+var num2 = 50;
+num2+num2;
+
+num1 = Number(num1);
+num1+num1;
 
 
 
