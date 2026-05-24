@@ -71,3 +71,10 @@ function calculatePay(hours){
      pay = pay + 10; // bonus
         return pay;
 }
+
+let MondayPay = calculatePay(8);
+let TuesdayPay = calculatePay(6);
+
+OUTPUT.innerHTML =+ "This week's pay:<br>"
+OUTPUT.innerHTML += "Monday: $" +MondayPay+"<br>";
+OUTPUT.innerHTML += "Tuesday: $" +TuesdayPay+"<br>";
