@@ -1,78 +1,29 @@
+/*
+  t10_input_from_HTML.js
+  Collects age and pocket money from HTML input fields and updates the page on submit.
+*/
 
-console.log( "Running t01_introduction.js" );
+console.log("Running t10_input_from_HTML.js");
 
-//Variables
-let username = "Cole";
-let year = 2026;
-let age = 15;
-let money = 378;
-let birthyear;
-let oldage;
-let userName = "Ms Alice,"
-oldage = age + 10;
-birthyear = year - age;
-halfmoney = money / 2
-currentYear = "2026"
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+const form = document.getElementById("userForm");
+const nameField = document.getElementById("nameField");
+const ageField = document.getElementById("ageField");
+const moneyField = document.getElementById("moneyField");
 
-
-console.log("You were born in " + birthyear )
-console.log("In 10 years you will be " + oldage)
-console.log("You have $" + money)
-console.log("Uh-oh! You spent half of your money! You now have $" + halfmoney)
-
-const OUTPUT = document.getElementById("JavaScriptOutput");
-
-OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
-OUTPUT.innerHTML += "<p>Hello " + username + "</p>";
-OUTPUT.innerHTML += "<p>Second Paragraph line.</p>";
-OUTPUT.innerHTML += "<p>Third Paragraph line.</p>";
-
-
-displayWelcome(userName, 16);
-
-
-
-/*******************
- *Functions
- *******************/
-function writeLine(){
-   // Add a line to the html page
-   OUTPUT.innerhtml += "<p>Less code matters</p>";
+function updatePage(name, age, pocketMoney) {
+  OUTPUT.innerHTML = "<h2>Input Received</h2>";
+  OUTPUT.innerHTML += `<p>Name: ${name || "Guest"}</p>`;
+  OUTPUT.innerHTML += `<p>Age: ${age}</p>`;
+  OUTPUT.innerHTML += `<p>Pocket money: $${pocketMoney}</p>`;
 }
 
-function start() {
-    spaceForJavaScriptOutput.innerHTML
-    spaceForJavaScriptOutput.innerHTML
-    answer = currentYear - userAge;
-    spaceForJavaScriptOutput.innerHTML
-}
+form.addEventListener("submit", function(event) {
+  event.preventDefault();
 
-/****************************
-  Main Code
-****************************/ 
-writeLine()
+  const name = nameField.value.trim();
+  const age = ageField.value;
+  const pocketMoney = moneyField.value;
 
-
-
-
-
-/*******************
- *Functions
- *******************/
-function writeLine(){
-   // Add a line to the html page
-   OUTPUT.innerhtml += "<p>Less code matters</p>";
-}
- 
-function displayWelcome(_name, _age){
-    OUTPUT.innerHTML += "<p>Welcome to the page "+_name+"</p>";
-    OUTPUT.innerHTML += "<p>You are "+_age+" years old</p>";
-}
-/****************************
-  Main Code
-****************************/ 
-writeLine()
-
-
-
-
+  updatePage(name, age, pocketMoney);
+});
