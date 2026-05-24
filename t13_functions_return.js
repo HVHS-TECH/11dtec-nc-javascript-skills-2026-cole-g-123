@@ -65,5 +65,9 @@ if (age = 15){
 
 
 function calculatePay(hours){
-    
+    let pay = _hours * 18.80; // Training wage
+    pay = pay - (pay * 0.105); // Tax deduction
+     pay = pay - (pay * 0.04); // Kiwisaver
+     pay = pay + 10; // bonus
+        return pay;
 }
