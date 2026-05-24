@@ -20,21 +20,12 @@ currentYear = "2026"
 const OUTPUT = document.getElementById("JavaScriptOutput");
 
 
-
-
-
-
-
 function start() {
     spaceForJavaScriptOutput.innerHTML
     spaceForJavaScriptOutput.innerHTML
     answer = currentYear - userAge;
     spaceForJavaScriptOutput.innerHTML
 }
-
-
-
-
 
  
 function displayWelcome(_name, _age){
