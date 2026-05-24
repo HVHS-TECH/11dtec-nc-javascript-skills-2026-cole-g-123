@@ -19,17 +19,11 @@ currentYear = "2026"
 
 const OUTPUT = document.getElementById("JavaScriptOutput");
 
-displayWelcome(userName, 16);
 
 
 
-/*******************
- *Functions
- *******************/
-function writeLine(){
-   // Add a line to the html page
-   OUTPUT.innerHTML += "<p>Less code matters</p>";
-}
+
+
 
 function start() {
     spaceForJavaScriptOutput.innerHTML
@@ -38,31 +32,10 @@ function start() {
     spaceForJavaScriptOutput.innerHTML
 }
 
-/****************************
-  Main Code
-****************************/ 
-writeLine()
-
-var num1 = "50";
-num1+num1;
-
-var num2 = 50;
-num2+num2;
-
-num1 = Number(num1);
-num1+num1;
-
-let userAgeString = AGE_FIELD.value;
-let userAgeNumber = Number(userAgeString)
 
 
-/*******************
- *Functions
- *******************/
-function writeLine(){
-   // Add a line to the html page
-   OUTPUT.innerHTML += "<p>Less code matters</p>";
-}
+
+
  
 function displayWelcome(_name, _age){
     OUTPUT.innerHTML += "<p>Welcome to the page "+_name+"</p>";
@@ -82,6 +55,6 @@ if (age >= 15){
 if (age = 15){
     console.log("Just right")
 }
-writeLine()
+
 
 
