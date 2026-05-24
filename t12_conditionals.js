@@ -44,7 +44,12 @@ function displayWelcome(_name, _age){
 /****************************
   Main Code
 ****************************/ 
-
+function start() {
+    spaceForJavaScriptOutput.innerHTML
+    spaceForJavaScriptOutput.innerHTML
+    answer = currentYear - userAge;
+    spaceForJavaScriptOutput.innerHTML
+}
 
 if (age < 15){
     console.log("Definitely too young")
