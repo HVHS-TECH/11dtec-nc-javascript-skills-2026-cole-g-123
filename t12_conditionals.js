@@ -15,18 +15,9 @@ halfmoney = money / 2
 currentYear = "2026"
 
 
-console.log("You were born in " + birthyear )
-console.log("In 10 years you will be " + oldage)
-console.log("You have $" + money)
-console.log("Uh-oh! You spent half of your money! You now have $" + halfmoney)
+
 
 const OUTPUT = document.getElementById("JavaScriptOutput");
-
-OUTPUT.innerHTML += "<h2>Added by JavaScript</h2>";
-OUTPUT.innerHTML += "<p>Hello " + username + "</p>";
-OUTPUT.innerHTML += "<p>Second Paragraph line.</p>";
-OUTPUT.innerHTML += "<p>Third Paragraph line.</p>";
-
 
 displayWelcome(userName, 16);
 
@@ -37,7 +28,7 @@ displayWelcome(userName, 16);
  *******************/
 function writeLine(){
    // Add a line to the html page
-   OUTPUT.innerhtml += "<p>Less code matters</p>";
+   OUTPUT.innerHTML += "<p>Less code matters</p>";
 }
 
 function start() {
@@ -70,7 +61,7 @@ let userAgeNumber = Number(userAgeString)
  *******************/
 function writeLine(){
    // Add a line to the html page
-   OUTPUT.innerhtml += "<p>Less code matters</p>";
+   OUTPUT.innerHTML += "<p>Less code matters</p>";
 }
  
 function displayWelcome(_name, _age){
