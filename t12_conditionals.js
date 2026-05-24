@@ -83,6 +83,14 @@ function displayWelcome(_name, _age){
 if (age < 15){
     console.log("Definitely too young")
 }
+
+if (age >= 15){
+    console.log("Might be too old")
+}
+
+if (age = 15){
+    console.log("Just right")
+}
 writeLine()
 
 
