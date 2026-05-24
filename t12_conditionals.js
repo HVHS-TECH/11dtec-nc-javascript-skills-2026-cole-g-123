@@ -1,67 +1,17 @@
+/*
+  t12_conditionals.js
+  Checks whether the user has enough pocket money to buy a $4 chocolate bar.
+*/
 
-console.log( "Running t01_introduction.js" );
+console.log("Running t12_conditionals.js");
 
-//Variables
-let username = "Cole";
-let year = 2026;
-let age = 15;
-let money = 378;
-let birthyear;
-let oldage;
-let userName = "Ms Alice,"
-oldage = age + 10;
-birthyear = year - age;
-halfmoney = money / 2
-currentYear = "2026"
+let pocketMoney = 3; // change this value to test affordability
+let chocolatePrice = 4;
 
+console.log("A chocolate bar costs $" + chocolatePrice);
 
-
-
-const OUTPUT = document.getElementById("JavaScriptOutput");
-
-
-
-
-
-
-
-function start() {
-    spaceForJavaScriptOutput.innerHTML
-    spaceForJavaScriptOutput.innerHTML
-    answer = currentYear - userAge;
-    spaceForJavaScriptOutput.innerHTML
+if (pocketMoney >= chocolatePrice) {
+  console.log("\nYou CAN afford a chocolate bar");
+} else {
+  console.log("\nSorry you CAN'T afford a chocolate bar");
 }
-
-
-
-
-
- 
-function displayWelcome(_name, _age){
-    OUTPUT.innerHTML += "<p>Welcome to the page "+_name+"</p>";
-    OUTPUT.innerHTML += "<p>You are "+_age+" years old</p>";
-}
-/****************************
-  Main Code
-****************************/ 
-function start() {
-    spaceForJavaScriptOutput.innerHTML
-    spaceForJavaScriptOutput.innerHTML
-    answer = currentYear - userAge;
-    spaceForJavaScriptOutput.innerHTML
-}
-
-if (age < 15){
-    console.log("Definitely too young")
-}
-
-if (age >= 15){
-    console.log("Might be too old")
-}
-
-if (age = 15){
-    console.log("Just right")
-}
-
-
-
