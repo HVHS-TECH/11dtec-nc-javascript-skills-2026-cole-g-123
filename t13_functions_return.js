@@ -64,4 +64,6 @@ if (age = 15){
 }
 
 
-
+function calculatePay(hours){
+    
+}
