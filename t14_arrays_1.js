@@ -55,3 +55,6 @@ OUTPUT.innerHTML += "Tuesday: $" +TuesdayPay+"<br>";
 
 let classArray = ["Maths", "English", "Science", "History", "PE"];
 OUTPUT.innerHTML = classArray;`
+let classArray = ["Maths", "English", "Science", "History", "PE"];
+OUTPUT.innerHTML = "The first class is " + classArray[1];
+OUTPUT.innerHTML += "<br>The last class is " + classArray[5];
