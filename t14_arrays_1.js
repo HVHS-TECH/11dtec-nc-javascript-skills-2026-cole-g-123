@@ -53,4 +53,5 @@ let TuesdayPay = calculatePay(6);
 OUTPUT.innerHTML += "Monday: $" +MondayPay+"<br>";
 OUTPUT.innerHTML += "Tuesday: $" +TuesdayPay+"<br>";
 
-let classArray = `
+let classArray = ["Maths", "English", "Science", "History", "PE"];
+OUTPUT.innerHTML = classArray;`
