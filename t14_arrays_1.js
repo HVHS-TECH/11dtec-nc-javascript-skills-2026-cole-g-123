@@ -38,23 +38,13 @@ function displayWelcome(_name, _age){
 
 
 
-function calculatePay(hours){
-    let pay = _hours * 18.80; // Training wage
-    pay = pay - (pay * 0.105); // Tax deduction
-     pay = pay - (pay * 0.04); // Kiwisaver
-     pay = pay + 10; // bonus
-        return pay;
-}
 
-let MondayPay = calculatePay(8);
-let TuesdayPay = calculatePay(6);
-
-`OUTPUT.innerHTML =+ "This week's pay:<br>"
-OUTPUT.innerHTML += "Monday: $" +MondayPay+"<br>";
-OUTPUT.innerHTML += "Tuesday: $" +TuesdayPay+"<br>";
 
 let classArray = ["Maths", "English", "Science", "History", "PE"];
 OUTPUT.innerHTML = classArray;`
 let classArray = ["Maths", "English", "Science", "History", "PE"];
 OUTPUT.innerHTML = "The first class is " + classArray[1];
-OUTPUT.innerHTML += "<br>The last class is " + classArray[5];
+OUTPUT.innerHTML += "<br>The fourth class is " + classArray[4];
+
+let classArray = ["Maths", "English", "Science", "History", "PE"];
+let choice = CHOOSE_F
