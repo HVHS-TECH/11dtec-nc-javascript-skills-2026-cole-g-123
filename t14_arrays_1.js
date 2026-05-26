@@ -47,4 +47,5 @@ OUTPUT.innerHTML = "The first class is " + classArray[1];
 OUTPUT.innerHTML += "<br>The fourth class is " + classArray[4];
 
 let classArray = ["Maths", "English", "Science", "History", "PE"];
-let choice = CHOOSE_F
+let choice = CHOOSE_FIELD.value
+OUTPUT.innerHTML = "The class you chose is " + classArray[choice]+"<br>";
