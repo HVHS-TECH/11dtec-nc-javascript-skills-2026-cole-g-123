@@ -36,10 +36,10 @@ function displayWelcome(_name, _age){
   Main Code
 ****************************/ 
 
-
+let hours = 8;
 
 function calculatePay(hours){
-    let pay = _hours * 18.80; // Training wage
+    let pay = (hours * 18.80); // Training wage
     pay = pay - (pay * 0.105); // Tax deduction
      pay = pay - (pay * 0.04); // Kiwisaver
      pay = pay + 10; // bonus
