@@ -51,3 +51,6 @@ let choice = CHOOSE_FIELD.value
 OUTPUT.innerHTML = "The class you chose is "+classArray[choice];
 
 let classArray = ["Maths", "English", "Science", "History", "PE"];
+classArray.push("Maths");
+for (let i = 0; i < classArray.length; i++){
+    OUTPUT.innerHTML += "class: " + classArray[i] + "<br>";
