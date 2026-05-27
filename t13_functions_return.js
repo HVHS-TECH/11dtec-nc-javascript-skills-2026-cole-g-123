@@ -36,7 +36,7 @@ function displayWelcome(_name, _age){
   Main Code
 ****************************/ 
 
-let hours = 8;
+function CalculatePay
 
 function calculatePay(hours){
     let pay = (hours * 18.80); // Training wage
