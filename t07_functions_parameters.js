@@ -8,7 +8,7 @@ let age = 15;
 let money = 378;
 let birthyear;
 let oldage;
-let userName = "Ms Alice,"
+let userName = "Cole";
 oldage = age + 10;
 birthyear = year - age;
 halfmoney = money / 2
