@@ -1,74 +1,36 @@
+console.log("Running Task 09...");
 
-console.log( "Running t01_introduction.js" );
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
-//Variables
-let username = "Cole";
-let year = 2026;
-let age = 15;
-let money = 378;
-let birthyear;
-let oldage;
-let userName = "Ms Alice,"
-oldage = age + 10;
-birthyear = year - age;
-halfmoney = money / 2
-currentYear = "2026"
+/****************************
 
 
-console.log("You were born in " + birthyear )
-console.log("In 10 years you will be " + oldage)
-console.log("You have $" + money)
-console.log("Uh-oh! You spent half of your money! You now have $" + halfmoney)
-
-const OUTPUT = document.getElementById("JavaScriptOutput");
-
-OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
-OUTPUT.innerHTML += "<p>Hello " + username + "</p>";
-OUTPUT.innerHTML += "<p>Second Paragraph line.</p>";
-OUTPUT.innerHTML += "<p>Third Paragraph line.</p>";
-
-
-displayWelcome(userName, 16);
-
-
-
-/*******************
- *Functions
- *******************/
-function writeLine(){
-   // Add a line to the html page
-   OUTPUT.innerhtml += "<p>Less code matters</p>";
-}
-
+/****************************
+ Functions
+****************************/
 function start() {
-    spaceForJavaScriptOutput.innerHTML
-    spaceForJavaScriptOutput.innerHTML
-    answer = currentYear - userAge;
-    spaceForJavaScriptOutput.innerHTML
-}
+//Variables 
+let username="Cole";
+let year= 2026;
+let age= 16;
+let money= 10;
+let birthYear;
+let oldAge;
+oldAge= age + 10;
+birthYear= year - age;
+halfmoney= money / 2
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 
 /****************************
-  Main Code
-****************************/ 
-writeLine()
+Main code 
+****************************/
 
-
-
-
-
-/*******************
- *Functions
- *******************/
-function writeLine(){
-   // Add a line to the html page
-   OUTPUT.innerhtml += "<p>Less code matters</p>";
+OUTPUT.innerHTML += "<p> Hi " + username + " as of " + year + " you are " + age + " years old.<p>";
+OUTPUT.innerHTML += "<p>You were born in " + birthYear + "</p>";
+OUTPUT.innerHTML += "<p>In 10 years you will be " + oldAge + " years old</p>";
+OUTPUT.innerHTML += "<p>You have " + money + " dollars</p>";
+OUTPUT.innerHTML += "<p>You spend half your money, now you have " + halfmoney + " dollars</p>";
+OUTPUT.innerHTML += "<p>You get $3," +" now you have "+ (halfmoney + 3) + " dollars</p>";
+OUTPUT.innerHTML += "<p>You pressed the button!</p>";
 }
- 
-function displayWelcome(_name, _age){
-    OUTPUT.innerHTML += "<p>Welcome to the page "+_name+"</p>";
-    OUTPUT.innerHTML += "<p>You are "+_age+" years old</p>";
-}
-/****************************
-  Main Code
-****************************/ 
-writeLine()

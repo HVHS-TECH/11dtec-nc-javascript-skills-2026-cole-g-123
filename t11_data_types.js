@@ -1,86 +1,53 @@
+/*********************************/
+console.log("t11_input_from_HTML.js");
 
-console.log( "Running t01_introduction.js" );
+/*********************************
+  main code
+*********************************/
 
-//Variables
-let username = "Cole";
-let year = 2026;
+function runTask11() {
+
+  const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+
+  // get values from the form
+  const NAME_FIELD = document.getElementById("nameField");
+  const AGE_FIELD = document.getElementById("ageField");
+  const MONEY_FIELD = document.getElementById("moneyField");
+  const YEAR_FIELD = document.getElementById("yearField");
+
+  let username = NAME_FIELD.value;
+  let age = Number(AGE_FIELD.value);
+  let money = Number(MONEY_FIELD.value);
+  let year = Number(YEAR_FIELD.value);
+
+  // calculations
+  let birthYear = year - age;
+  let oldAge = age + 10;
+  let extraMoney = money + 3;
+
+  // output to HTML
+  OUTPUT.innerHTML = "<p>Hi " + username + " as of " + year + " you are " + age + " years old. You have " + money + " dollars.</p>";
+  OUTPUT.innerHTML += "<p>You were born in " + birthYear + "</p>";
+  OUTPUT.innerHTML += "<p>In ten years you will be " + oldAge + "</p>";
+  OUTPUT.innerHTML += "<p>You have " + money + " dollars</p>";
+  OUTPUT.innerHTML += "<p>You spend half your money, you now have " + money/2 + " dollars</p>";
+  OUTPUT.innerHTML += "<p>You get 3 dollars, now you have " + extraMoney + " dollars</p>";
+}
+
+let name = "Ayush";
 let age = 15;
-let money = 378;
-let birthyear;
-let oldage;
-let userName = "Ms Alice,"
-oldage = age + 10;
-birthyear = year - age;
-halfmoney = money / 2
-currentYear = "2026"
+let isAwake = true;
 
 
-console.log("You were born in " + birthyear )
-console.log("In 10 years you will be " + oldage)
-console.log("You have $" + money)
-console.log("Uh-oh! You spent half of your money! You now have $" + halfmoney)
-
-const OUTPUT = document.getElementById("JavaScriptOutput");
-
-OUTPUT.innerHTML += "<h2>Added by JavaScript</h2>";
-OUTPUT.innerHTML += "<p>Hello " + username + "</p>";
-OUTPUT.innerHTML += "<p>Second Paragraph line.</p>";
-OUTPUT.innerHTML += "<p>Third Paragraph line.</p>";
-
-
-displayWelcome(userName, 16);
-
-
-
-/*******************
- *Functions
- *******************/
-function writeLine(){
-   // Add a line to the html page
-   OUTPUT.innerhtml += "<p>Less code matters</p>";
-}
-
-function start() {
-    spaceForJavaScriptOutput.innerHTML
-    spaceForJavaScriptOutput.innerHTML
-    answer = currentYear - userAge;
-    spaceForJavaScriptOutput.innerHTML
-}
-
-/****************************
-  Main Code
-****************************/ 
-writeLine()
 
 var num1 = "50";
 num1+num1;
 
-var num2 = 50;
+var num2 = "50";
 num2+num2;
 
 num1 = Number(num1);
 num1+num1;
-
-let userAgeString = AGE_FIELD.value;
-let userAgeNumber = Number(userAgeString)
-
-
-/*******************
- *Functions
- *******************/
-function writeLine(){
-   // Add a line to the html page
-   OUTPUT.innerhtml += "<p>Less code matters</p>";
-}
- 
-function displayWelcome(_name, _age){
-    OUTPUT.innerHTML += "<p>Welcome to the page "+_name+"</p>";
-    OUTPUT.innerHTML += "<p>You are "+_age+" years old</p>";
-}
-/****************************
-  Main Code
-****************************/ 
-writeLine()
 
 
 
