@@ -13,3 +13,7 @@ console.log( "Starting Loop");
  for(let i=0; i<classArray.length; i++){
     OUTPUT.innerHTML += "Person "+ i + ": " + classArray[i] + "<br>";
     }
+
+    function getFormInput(){
+        OUTPUT.innerHTML = "<h1>Your List</h1>";
+        
