@@ -50,3 +50,4 @@ function singSong() {
 
  for(let i=0; i<classArray.length; i++){
     OUTPUT.innerHTML += "Person "+ i + ": " + classArray[i] + "<br>";
+    }
