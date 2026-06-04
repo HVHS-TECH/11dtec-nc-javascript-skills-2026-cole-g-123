@@ -16,4 +16,8 @@ console.log( "Starting Loop");
 
     function getFormInput(){
         OUTPUT.innerHTML = "<h1>Your List</h1>";
-        
+        for (let i = 0; i < listarray.length; i++){
+            OUTPUT.innerHTML += "<p>" + listarray[i] + "</p>";
+
+        }
+    }
