@@ -2,7 +2,7 @@ console.log("Running t14_JavaScript_and_HTML.js");
 
 
 //variables
-let Username = "Ayush";
+let Username = "Cole";
 let year = 2026;
 let age = 15;
 let money = 20;
